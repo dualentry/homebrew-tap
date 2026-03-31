@@ -1,21 +1,21 @@
 class Dualentry < Formula
   desc "DualEntry accounting CLI"
   homepage "https://github.com/dualentry/dualentry-cli"
-  version "0.1.5"
+  version "0.1.6"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/dualentry/dualentry-cli/releases/download/v0.1.5/dualentry-macos-arm64"
-      sha256 "0a40ca89ada76511d6560fabd2aaf26d135c2244a6b025ba9e316c2aaca913c8"
+      url "https://github.com/dualentry/dualentry-cli/releases/download/v0.1.6/dualentry-macos-arm64"
+      sha256 "afc4fe1cfaa7317c80f38a193b3895f4a3fd2289950563b01902a011d6f37c3c"
     else
-      url "https://github.com/dualentry/dualentry-cli/releases/download/v0.1.5/dualentry-macos-x86_64"
-      sha256 "d41c24251b43fc9d2beed4667f29f31cd6ce466a80a9e1980af5bbcbfeddf459"
+      url "https://github.com/dualentry/dualentry-cli/releases/download/v0.1.6/dualentry-macos-x86_64"
+      sha256 "92256cad2544ccbce2cdf55097dc69aa2c53f46f365ec5ece3a9d623a7e47460"
     end
   end
 
   on_linux do
-    url "https://github.com/dualentry/dualentry-cli/releases/download/v0.1.5/dualentry-linux-x86_64"
-    sha256 "488b4b208db593a617eddf69ec3c30d48d2a3d8024a6c56c5aafbbdab66df275"
+    url "https://github.com/dualentry/dualentry-cli/releases/download/v0.1.6/dualentry-linux-x86_64"
+    sha256 "3eeb2709b7916dbf1cbe1fde998a69b1abf741242fe8a8969fdefa3bd4b0f6f9"
   end
 
   def install
